@@ -227,3 +227,18 @@ INFO:werkzeug:127.0.0.1 - - [05/Jan/2023 15:13:42] "POST /post HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [05/Jan/2023 15:14:28] "GET /post HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [05/Jan/2023 15:14:32] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [05/Jan/2023 15:14:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2023 09:15:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2023 09:15:46] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2023 09:15:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Поиск: ага
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2023 09:15:52] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2023 09:15:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2023 09:15:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2023 09:15:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Поиск: тест
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2023 09:16:01] "GET /search?s=тест HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2023 09:16:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [09/Jan/2023 09:16:01] "GET /uploads/12688-big-15373004300.jpg HTTP/1.1" 200 -
